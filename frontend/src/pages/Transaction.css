@@ -1,0 +1,65 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f3f9;
+    font-family: Arial, sans-serif;
+}
+
+.transaction-container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    color: #4b3a6f;
+    text-align: center;
+}
+
+.transaction-container h1 {
+    font-size: 28px;
+    color: #4b3a6f;
+    margin-bottom: 20px;
+}
+
+.error-message {
+    color: red;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.transaction-table th, .transaction-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    color: #4b3a6f;
+}
+
+.transaction-table th {
+    background-color: #6a4b93;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.transaction-table tr:nth-child(even) {
+    background-color: #f8f3f9;
+}
+
+.transaction-table tr:hover {
+    background-color: #ddd;
+}
+
+.transaction-table .no-data {
+    text-align: center;
+    color: #4b3a6f;
+    font-style: italic;
+}
